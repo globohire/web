@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://api.coinify.com/integration/web.js" data-clientkey="your-api-key"></script>
+
+        <title>GloboHire </title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/" alt="" class="nav__logo-img">
+                    GloboHire
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        
+
+                        
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Find work</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Management</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#countries" class="nav__link">Countries</a>
+                        </li>
+
+                        
+                        <li class="nav__item">
+                            <a href="#success" class="nav__link">Success Stories</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#requirements" class="nav__link">Requirements</a>
+                        </li>
+
+
+                        <li class="nav__item">
+                            <a href="#tips" class="nav__link">Tips</a>
+                        </li>
+
+
+                        <a href="#" class="button button--ghost">Support</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+           <!--==================== HOME ====================-->
+<section class="home container" id="home">
+    <div class="swiper home-swiper">
+        <div class="swiper-wrapper">
+            <!-- HOME SLIDER 1 -->
+            <section class="swiper-slide">
+                <div class="home__content grid">
+                    <div class="home__group">
+                        <img src="assets/img/rm-removebg-preview.png" alt="" class="home__img">
+                        <div class="home__indicator"></div>
+
+                        <div class="home__details-img">
+                            <h4 class="home__details-title">Welcome to GloboHire</h4>
+                            <span class="home__details-subtitle">Find Your Remote Job</span>
+                        </div>
+                    </div>
+
+                    <div class="home__data">
+                        <h3 class="home__subtitle">Discover Remote Work Opportunities Worldwide</h3>
+                        <h1 class="home__title">Work from Anywhere</h1>
+                        <p class="home__description">At GloboHire, we connect you with the world of remote work. Enjoy the freedom to choose when and where you work while pursuing your dream career.</p>
+
+                        <div class="home__buttons">
+                            <a href="#trick" class="button">Start Your Job Search</a>
+                            <a href="#" class="button--link button--flex">scroll<i class='bx bx-right-arrow-alt button__icon'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HOME SLIDER 2 -->
+            <section class="swiper-slide">
+                <div class="home__content grid">
+                    <div class="home__group">
+                        <img src="assets/img/rw.png" alt="" class="home__img">
+                        <div class="home__indicator"></div>
+
+                        <div class="home__details-img">
+                            <h4 class="home__details-title">Unlock Your Potential</h4>
+                            <span class="home__details-subtitle">Choose Flexibility</span>
+                        </div>
+                    </div>
+
+                    <div "home__data">
+                        <h3 class="home__subtitle">Embrace the Remote Work Lifestyle</h3>
+                        <h1 class="home__title">Work on Your Terms</h1>
+                        <p class="home__description">With GloboHire, you can work when and where you thrive. Achieve your professional goals while maintaining the work-life balance you desire.</p>
+
+                        <div class="home__buttons">
+                            <a href="#trick" class="button">Explore Opportunities</a>
+                            <a href="#" class="button--link button--flex">scroll <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HOME SLIDER 3 -->
+            <section class="swiper-slide">
+                <div class="home__content grid">
+                    <div class="home__group">
+                        <img src="assets/img/green.png" alt="" class="home__img">
+                        <div class="home__indicator"></div>
+
+                        <div class="home__details-img">
+                            <h4 class="home__details-title">Join the Remote Revolution</h4>
+                            <span class="home__details-subtitle">Unleash Your Potential</span>
+                        </div>
+                    </div>
+
+                    <div class="home__data">
+                        <h3 class="home__subtitle">Shape Your Career on Your Terms</h3>
+                        <h1 class="home__title">Experience Freedom</h1>
+                        <p class="home__description">GloboHire empowers you to redefine work on your own terms. Join the remote work revolution and explore opportunities that match your unique skills and lifestyle.</p>
+
+                        <div class="home__buttons">
+                            <a href="#trick" class="button">Start Your Remote Journey</a>
+                            <a href="#" class="button--link button--flex">scroll <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+  
+  
+<!--==================== GLOBAL HIRE SERVICES ====================-->
+<section class="section trick" id="trick">
+    <h2 class="section__title">Global Hire Opportunities</h2>
+
+    <div class="trick__container container grid">
+        <!-- Job Opportunity 1 -->
+        <div class="trick__content">
+            <img src="assets/img/sd-removebg-preview.png" alt="" class="trick__img">
+            <h3 class="trick__title">Senior Software Engineer</h3>
+            <span class="trick__subtitle">Software Development</span>
+            <span class="trick__price">Competitive Salary</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 2 -->
+        <div class="trick__content">
+            <img src="assets/img/c.png" alt="" class="trick__img">
+            <h3 class="trick__title">Customer Service Representative</h3>
+            <span class="trick__subtitle">Customer Service</span>
+            <span class="trick__price">Hourly Rate</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 3 -->
+        <div class="trick__content">
+            <img src="assets/img/d.png" alt="" class="trick__img">
+            <h3 class="trick__title">Digital Marketing Specialist</h3>
+            <span class="trick__subtitle">Marketing</span>
+            <span class="trick__price">Competitive Salary</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 4 -->
+        <div class="trick__content">
+            <img src="assets/img/data.png" alt="" class="trick__img">
+            <h3 class="trick__title">Data Analyst</h3>
+            <span class="trick__subtitle">Data Analytics</span>
+            <span class="trick__price">Hourly Rate</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 5 -->
+        <div class="trick__content">
+            <img src="assets/img/g.png" alt="" class="trick__img">
+            <h3 class="trick__title">Graphic Design Specialist</h3>
+            <span class="trick__subtitle">Graphic Design</span>
+            <span class="trick__price">Competitive Salary</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 6 -->
+        <div class="trick__content">
+            <img src="assets/img/f.png" alt="" class="trick__img">
+            <h3 class="trick__title">Financial Analyst</h3>
+            <span class="trick__subtitle">Finance</span>
+            <span class="trick__price">Competitive Salary</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 7 -->
+        <div class="trick__content">
+            <img src="assets/img/de1.png" alt="" class="trick__img">
+            <h3 class="trick__title">Data Entry Specialist</h3>
+            <span class="trick__subtitle">Data Entry</span>
+            <span class="trick__price">Hourly Rate</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+
+        <!-- Job Opportunity 8 -->
+        <div class="trick__content">
+            <img src="assets/img/v.png" alt="" class="trick__img">
+            <h3 class "trick__title">Virtual Assistant</h3>
+            <span class="trick__subtitle">Administrative Support</span>
+            <span class="trick__price">Hourly Rate</span>
+            <button class="button trick__button" onclick="Tawk_API.toggle()">
+                <i class='bx bx-chat trick__icon'></i> Apply Now
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">100% Reimbursement <br>Guarantee</h2>
+                        <h3 class="new__title">Get Reimbursement after completion of the 7 day training </h3>
+
+                       
+                    </div>
+
+                    <img src="assets/img/reim-removebg-preview.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+         <!--==================== OUR LEADERSHIP TEAM ====================-->
+<section class="section new" id="new">
+    <h2 class="section__title">Meet Our Leadership Team</h2>
+
+    <div class="new__container container">
+        <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+                <!-- Profile 1: CEO -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">CEO</div>
+                    <img src="assets/img/ceo-removebg-preview.png" alt="" class="new__img">
+                    <h3 class="new__title">John Smith</h3>
+                    <p class="new__description">Leading innovation at GloboHire with a global vision.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Profile 2: COO -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">COO</div>
+                    <img src="assets/img/2.png" alt="" class="new__img">
+                    <h3 class="new__title">Emily Davis</h3>
+                    <p class="new__description">Driving operational excellence for GloboHire's success.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Profile 3: CTO -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">CTO</div>
+                    <img src="assets/img/3.png" alt="" class="new__img">
+                    <h3 class="new__title">Jia Zhang</h3>
+                    <p class="new__description">Our technology visionary, leading cutting-edge innovations at GloboHire.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Profile 4: HR Director -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">HR Director</div>
+                    <img src="assets/img/4.png" alt="" class="new__img">
+                    <h3 class="new__title">Sarah Johnson</h3>
+                    <p class "new__description">Nurturing talent for GloboHire's vibrant workplace.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Profile 5: Marketing Director -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">Marketing Director</div>
+                    <img src="assets/img/5.png" alt="" class="new__img">
+                    <h3 class="new__title">Linda Rodriguez</h3>
+                    <p class "new__description">Crafting compelling narratives for GloboHire's global story.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Profile 6: Product Manager -->
+                <div class="new__content swiper-slide">
+                    <div class="new__tag">Product Manager</div>
+                    <img src="assets/img/7.png" alt="" class="new__img">
+                    <h3 class="new__title">David Foster</h3>
+                    <p class="new__description">Steering product development for GloboHire's global impact.</p>
+                    <button class="button new__button">Meet</button>
+                </div>
+
+                <!-- Add more profiles for other team members -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==================== COUNTRIES SECTION ====================-->
+<section class="section countries" id="countries">
+    <div class="container">
+        <h1 class="section__title">GloboHire's Global Reach</h1>
+        <p>Explore the countries we connect with</p>
+        <input type="text" id="country-search" placeholder="Search for a country..." class="search-box">
+
+        <div id="countries-section" class="countries-container">
+            <!-- Countries data will be dynamically inserted here -->
+        </div>
+    </div>
+</section>
+
+<section class="section category" id="success">
+    <h2 class="section__title">Success Stories</h2>
+
+    <div class="category__container container grid">
+        <!-- Success Story 1 -->
+        <div class="category__data">
+            <img src="assets/img/john.png" alt="" class="category__img">
+            <h3 class="category__title">John's Journey to Remote Success</h3>
+            <p class="category__description">From office routine to a life of freedom and purpose.</p>
+            <p class="category__story">
+                John broke free from the mundane office routine with GloboHire's support and found a fulfilling life filled with freedom and purpose.
+            </p>
+            
+        </div>
+
+        <!-- Success Story 2 -->
+        <div class="category__data">
+            <img src="assets/img/sara.png" alt="" class="category__img">
+            <h3 class="category__title">Sara's Rise in Remote Work</h3>
+            <p class="category__description">From local work to global success.</p>
+            <p class "category__story">
+                Sara transitioned from local work to global success with GloboHire, achieving new career heights.
+            </p>
+            
+        </div>
+
+        <!-- Success Story 3 -->
+        <div class="category__data">
+            <img src="assets/img/alex.png" alt="" class="category__img">
+            <h3 class="category__title">Alex's Career Triumph</h3>
+            <p class="category__description">Milestones and personal growth with GloboHire's support.</p>
+            <p class="category__story">
+                Alex achieved career milestones and personal growth with GloboHire's unwavering support.
+            </p>
+            
+        </div>
+
+        <!-- Success Story 4 -->
+        <div class="category__data">
+            <img src="assets/img/ella.png" alt="" class="category__img">
+            <h3 class="category__title">Ella's Unforgettable Remote Work Journey</h3>
+            <p class="category__description">Adventure into remote work with GloboHire.</p>
+            <p class="category__story">
+                Ella embarked on an unforgettable adventure into remote work and shared her extraordinary experiences with GloboHire.
+            </p>
+            
+        </div>
+
+        <!-- Success Story 5 -->
+        <div class ="category__data">
+            <img src="assets/img/micheal.png" alt="" class="category__img">
+            <h3 class="category__title">Michael's Path to Career Excellence</h3>
+            <p class="category__description">Incredible journey to career excellence with GloboHire.</p>
+            <p class="category__story">
+                Michael's incredible journey led him to career milestones and excellence with the support of GloboHire.
+            </p>
+            
+        </div>
+
+        <!-- Success Story 6 -->
+        <div class="category__data">
+            <img src="assets/img/emilly.png" alt="" class="category__img">
+            <h3 class="category__title">Empower Your Success with Emily and GloboHire</h3>
+            <p class="category__description">Achieving career and life goals with GloboHire's empowerment.</p>
+            <p class="category__story">
+                Emily achieved her career and life goals with GloboHire's support, proving that dreams can come true.
+            </p>
+            
+        </div>
+
+        <!-- New Success Story 1 -->
+        <div class="category__data">
+            <img src="assets/img/nigerian.png" alt="" class="category__img">
+            <h3 class="category__title">From Nigerian Primary Teacher to Data Entry Specialist</h3>
+            <p class="category__description">Lola's transformation from primary teacher to data entry specialist.</p>
+            <p class="category__story">
+                Lola, a dedicated primary teacher from Nigeria, embraced a new career path as a data entry specialist and achieved success beyond her dreams with GloboHire's support.
+            </p>
+            
+        </div>
+
+        <!-- New Success Story 2 -->
+        <div class="category__data">
+            <img src="assets/img/anthony.png" alt="" class="category__img">
+            <h3 class="category__title">Anthony's Remote Career Revolution</h3>
+            <p class="category__description">Remarkable career change and new heights with GloboHire.</p>
+            <p class="category__story">
+                Anthony made a remarkable career change and reached new heights in his remote career journey, thanks to GloboHire's support.
+            </p>
+            
+        </div>
+        <p class="motivational-message">Inspired by their journeys, write your own success story with GloboHire.</p>
+        <!-- Add more success stories here if needed -->
+    </div>
+    
+</section>
+
+
+
+<section id="requirements" class="requirements">
+    <h2 id="requirements-title" class="typing-effect">Our Requirements</h2>
+
+    <ul>
+        <li>Company laptops with tracking devices</li>
+        <li>Security badges for access control</li>
+        <li>VPN software for secure communication</li>
+        <li>Employee handbooks or manuals</li>
+        <li>Company-branded merchandise (e.g., t-shirts, mugs, stationery)</li>
+        <li>USB drives with company logo for data storage</li>
+        <li>Webcam and microphone for virtual meetings</li>
+        <li>Ergonomic office chairs for work comfort</li>
+        <li>External monitors for dual-screen setup</li>
+        <li>Noise-canceling headphones for focused work</li>
+    </ul>
+</section>
+
+
+     <!--==================== REMOTE WORK TIPS ====================-->
+<section class="section about" id="tips">
+    <div class="about__container container">
+        <div class="about__data">
+            <h2 class="section__title about__title">Remote Work Tips</h2>
+            <p class="about__description">
+                Explore our collection of handy tips to make your remote work experience more enjoyable and productive.
+            </p>
+            <ul class="remote__tips">
+                <li>1. <strong>Stay Organized:</strong> Set up a dedicated workspace for maximum efficiency.</li>
+                <li>2. <strong>Embrace Flexibility:</strong> Find a work schedule that suits your lifestyle.</li>
+                <li>3. <strong>Communication is Key:</strong> Stay connected with your remote team using collaboration tools.</li>
+                <li>4. <strong>Take Breaks:</strong> Remember to recharge and step away from your screen.</li>
+            </ul>
+            <a href="https://www.indeed.com/career-advice/career-development/tips-for-working-remotely" class="button">Explore More Tips</a>
+        </div>
+
+        <img src="assets/img/imgbin_web-development-web-design-search-engine-optimization-png.png" alt="" class="about__img">
+    </div>
+    
+</section>
+
+<!-- ... (your existing HTML content) ... -->
+
+<!--==================== LATEST NEWS ====================-->
+<section class="section news" id="news">
+    <div class="container">
+        <h2 class="section__title">Latest News</h2>
+        <div id="news-container">
+            <!-- News articles will be loaded here -->
+        </div>
+    </div>
+</section>
+
+<!-- ... (the rest of your existing HTML content) ... -->
+
+
+            <!--==================== OUR NEWSLETTER ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Our Newsletter</h2>
+                    <p class="newsletter__description">
+                        Subscribe to our newsletter for fresh, inspiring stories and company updates. Stay ahead of the curve – join us today!
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+<!-- Include the Coinify script -->
+<button onclick="handleCoinifyPayment()">Pay with Cryptocurrency</button>
+
+<!-- Your other HTML content -->
+
+<script>
+    function handleCoinifyPayment() {
+        // Use Coinify API to create a payment request
+        Coinify.createRequest({
+            amount: 100,  // Amount in the smallest unit of the currency (e.g., satoshis)
+            currency: 'BTC',
+            callbackUrl: 'https://dennis3633.github.io/lol/callback',  // URL to receive payment status updates
+            // Additional parameters as needed
+        });
+    }
+</script>
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            GloboHire
+                        </a>
+
+                        <p class="footer__description">Hire Globally, <br> Excel Locally.</p>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">About</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Services</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Discounts</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Shipping mode</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Our Company</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Our mision</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy">&#169; GloboHire.All rigths reserved</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+            <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/653a1caca84dd54dc4856018/1he82oo8d';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    </body>
+
+</html>
